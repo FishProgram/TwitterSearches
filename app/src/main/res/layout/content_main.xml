@@ -14,6 +14,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/queryTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/query_prompt"
@@ -28,6 +29,7 @@
         android:layout_below="@+id/queryTextInputLayout">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/tagTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/tag_prompt"
